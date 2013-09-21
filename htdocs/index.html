@@ -1,0 +1,122 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+        "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+	<title>Virtual Architect - Portfolio</title>
+	<link rel="stylesheet" href="css/portfolio.css">
+
+	<script type="text/javascript">
+<!--
+    function toggle_visibility(id) {
+       var e = document.getElementById(id);
+       if(e.style.display == 'block')
+          e.style.display = 'none';
+       else
+          e.style.display = 'block';
+    }
+//-->
+</script>
+
+</head>
+
+<body onLoad="toggle_visibility('webdesign');">
+<div id="container"></div>
+<div id="container2">
+	<div id="header">
+		<span id="headertxt"><a href="index.html">Virtual Architect</a></span>
+	</div>
+
+	<div id="navibar">
+		<ul id="list">
+			<li id="listitem">
+				<a href="index.html">Portfolio</a>
+			</li>
+			<li id="listitem">
+				<a href="contact.html">Contact</a>
+			</li>
+		</ul>
+	</div>
+
+	<hr id="separator">
+	
+	<div id="content">
+		<h1>Portfolio</h1>
+		<ul class="clickables">
+			<li><div class="click1">
+				<a id="click1" href="#" onclick="toggle_visibility('webdesign'); document.getElementById('graphicdesign').style.display='none'; document.getElementById('skillscompendium').style.display='none';">Web Design</a>
+			</div></li>
+			<li><div class="click2">
+				<a id="click2" href="#" onclick="toggle_visibility('graphicdesign'); document.getElementById('webdesign').style.display='none'; document.getElementById('skillscompendium').style.display='none';">Graphic Design</a>
+			</div></li>
+			<li><div class="click3">
+				<a id="click3" href="#" onclick="toggle_visibility('skillscompendium'); document.getElementById('webdesign').style.display='none'; document.getElementById('graphicdesign').style.display='none';">Skills Compendium</a>	
+			</div></li>
+		</ul>
+		<hr id="separator2">
+
+<!--hidden stuff-->
+		<span id="webdesign">
+			<ul>
+				<li>This website should be listed as a part of my porfolio, as I build it from scratch using a text editor and <a href="http://gimp.org">GIMP</a></li>
+				<li>The <a href="http://t1arena.cu.cc">Technique One Arena</a> forum, which uses an installation of <a href="http://mybb.com">MyBB</a> and a derivative version of <a href="http://mods.mybb.com/download/world-of-warcraft">this</a> layout.</li>
+				<li>For <a href="http://cyberarcstudios.net23.net">CyebrArc Studios</a> I used a JavaScript library, namely <a href="http://script.aculo.us/">Scriptaculous</a>, to create a drag-and-drop interface as well as the hide-and-show feature you will notice.</li>
+				<li><a href="http://cyberarcstudios.net23.net/everything/examples/character/">This profile system</a> is also some of my own work.</li>
+				<li><a href="http://cyberarcstudios.net23.net/everything/examples/colorchanger/">This color-changing page</a> was made right around the same time.</li>
+				<li><a href="http://cyberarcstudios.net23.net/everything/examples/computer/">This one</a> is an example of an iframe without the use of scroll bars (notice how the page never really refreshes!)</li>
+				<li>Finally we have <a href="http://cyberarcstudios.net23.net/everything/">this</a>, which was originally blue but I was asked to change it. The company is real, though not all of the links work.</li>
+			</ul>
+			<p id="smalltext">Please bear in mind that if a link on any of these does not work, that is because their only purpose is to show you my design capabilities, as well as what I can do with a little JavaScript. They are <b>not intended to be fully-functioning websites</b>.</p>
+		</span>
+
+		<span id="graphicdesign">
+			<p id="smalltext">For the most part, these are screenshots taken out of the 3D virtual world called <a href="http://imvu.com">IMVU</a>, which I have edited. There is an example of my editing a picture of a real person, though, as well as a hand-drawn image to give you an idea of what I <b><u>can</u></b> do.
+			<ul>
+				<li><a href="img/portfolio/ontheball.png">On the Ball</a></li>
+				<li><a href="img/portfolio/rosered1.png">Rose Red 1</a></li>
+				<li><a href="img/portfolio/rosered2.png">Rose Red 2</a> because I couldn't decide on which pose to use</li>
+				<li><a href="img/portfolio/sakurabeauty.png">Sakura Beauty</a></li>
+				<li><a href="img/portfolio/merryxmas.png">Dark Queen</a> (human subject)</li>
+				<li><a href="img/portfolio/cc.png">Charlotte Carrendar</a></li>
+				<li><a href="img/portfolio/drawing.jpg">The drawing</a> which I promised</a></li>
+			</ul>
+		</span>
+
+		<span id="skillscompendium">
+			<div class="programming">
+				<h1>Programming</h1>
+				<ul>
+					<li>HTML 5</li>
+					<li>CSS 3</li>
+					<li>JavaScript
+						<li>node.js</li>
+						<li>script.aculo.us</li>
+						<li>jquery</li>
+					</li>
+					<li>PHP</li>
+					<li>Java</li>
+					<li>C#</li>
+				</ul>
+			</div>
+			<br />
+			<div class="software">
+				<h1>Software</h1>
+				<ul>
+					<li>Adobe Photoshop</li>
+					<li>Adobe Fireworks</li>
+					<li>Adobe Dreamweaver</li>
+					<li>GIMP</li>
+					<li>NVU</li>
+					<li>Textpad</li>
+					<li>Sublime Text 2</li>
+					<li>Microsoft Office</li>
+					<li>Apache Open Office</li>
+					<li>Abiword</li>
+					<li>Any version of Microsoft&reg; Windows&reg;</li>
+				</ul>
+			</div>
+		</span>
+<!--stop hiding!-->
+	</div>
+</div>
+</body>
+</html>
